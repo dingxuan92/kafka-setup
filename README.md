@@ -12,3 +12,5 @@ This repository contains a docker-compose file to help set up a multi-broker Kaf
 
 ## For more information
 1. Understanding kafka listeners: https://rmoff.net/2018/08/02/kafka-listeners-explained/
+2. Kafka Manager: https://github.com/yahoo/CMAK
+3. Kafka image source: https://github.com/wurstmeister/kafka-docker
