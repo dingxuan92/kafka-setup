@@ -1,5 +1,5 @@
-# Multi-broker Kafka with Listeners
-This repository contains a docker-compose file to help set up a Kafka cluster with Listeners
+# Multi-broker Kafka with Listeners set up
+This repository contains a docker-compose file to help set up a multi-broker Kafka cluster with listeners. 
 
 ## Installation
 1. Create a Kafka directory in your home directory
@@ -9,3 +9,8 @@ This repository contains a docker-compose file to help set up a Kafka cluster wi
 3. Run docker-compose up -d
 4. Due to version incompatibility issues with Kafka Manager, may have to use this workaround https://github.com/yahoo/CMAK/issues/731#issuecomment-643880544 in order to add a cluster into Kafka Manager.
 5. tada! now your kafka cluster is up and running.
+
+## For more information
+1. Understanding kafka listeners: https://rmoff.net/2018/08/02/kafka-listeners-explained/
+2. Kafka Manager: https://github.com/yahoo/CMAK
+3. Kafka image source: https://github.com/wurstmeister/kafka-docker
